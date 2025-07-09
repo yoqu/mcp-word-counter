@@ -1,0 +1,43 @@
+{
+  "name": "@yoqulin/mcp-word-counter",
+  "version": "1.0.0",
+  "description": "MCP服务器，用于中文字数统计",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-word-counter": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["mcp", "word-counter", "chinese", "字数统计", "model-context-protocol"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mcp-word-counter.git"
+  },
+  "homepage": "https://github.com/yourusername/mcp-word-counter#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/mcp-word-counter/issues"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
