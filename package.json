@@ -1,6 +1,6 @@
 {
   "name": "@yoqulin/mcp-word-counter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "MCP服务器，用于中文字数统计",
   "main": "dist/index.js",
   "bin": {
@@ -15,15 +15,15 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": ["mcp", "word-counter", "chinese", "字数统计", "model-context-protocol"],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Yoqulin <yoqulin@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/mcp-word-counter.git"
+    "url": "https://github.com/yoqu/mcp-word-counter.git"
   },
-  "homepage": "https://github.com/yourusername/mcp-word-counter#readme",
+  "homepage": "https://github.com/yoqu/mcp-word-counter#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/mcp-word-counter/issues"
+    "url": "https://github.com/yoqu/mcp-word-counter/issues"
   },
   "files": [
     "dist/",
